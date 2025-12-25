@@ -8,7 +8,7 @@ label + .radio-wrapper {
   gap: 1rem;
 }
 
-.radioinner {
+.radio-inner {
   border: 1px solid var(--stroke-default);
   border-radius: 0.5rem;
 
@@ -47,8 +47,8 @@ position: relative;
   }
 
   &:has(:checked) {
-  border: 2px solid var(--stroke-highlight);
-  
+    border: 2px solid var(--stroke-highlight);
+
     & .radio-image {
       background-image: url(../../assets/icons/radio-checked.svg);
     }
