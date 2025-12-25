@@ -12,12 +12,12 @@ label + .radio-wrapper {
   border: 1px solid var(--stroke-default);
   border-radius: 0.5rem;
 
-display: grid;
-justify-items: center;
-gap: 0.5rem;
+  display: grid;
+  justify-items: center;
+  gap: 0.5rem;
 
-padding: 2rem .5rem .5rem;
-position: relative;
+  padding: 2rem .5rem .5rem;
+  position: relative;
 
   & input,
   & input:focus,
@@ -38,8 +38,9 @@ position: relative;
     left: 0.5rem;
   }
 
-  &:hover, &:focus-within {
-    border: 1px solid var(--stroke-hover);
+  &:hover,
+  &:focus-within {
+    border: 1px solid var(--stroke-highlight);
 
     & .radio-image {
       background-image: url(../../assets/icons/radio-hover.svg);
